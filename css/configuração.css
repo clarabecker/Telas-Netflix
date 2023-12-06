@@ -1,0 +1,159 @@
+body {
+    background-color: var(--Black, #141414);;
+}
+div.principal {
+    display: flex;
+    margin-left: 420px;
+}
+div.titulo{
+    color: var(--White, #FFF);
+    font-family: "Ubuntu", sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    margin-right: 400px;
+    margin-left: -115px;
+}
+div.foto{
+    margin-top: 150px;
+}
+div.nome {
+    margin-top: 150px;
+    margin-left: -570px;
+}
+div.id {
+    margin-top: 190px;
+    margin-left: -205px;
+    color: var(--White, #FFF);
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+}
+div.selecionar{
+    margin-top: 240px;
+    margin-left: -58px;
+}
+div.selectfaixa {
+    margin-top: 320px;
+    margin-left: -290px;
+}
+div.faixa {
+    margin-top: 270px;
+    margin-left: -122px;
+    color: var(--White, #FFF);
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+}
+div.controle {
+    margin-top: 440px;
+    margin-left: -100px;
+    color: var(--White, #FFF);
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+}
+div.editar {
+    margin-top: 400px;
+    margin-left: -250px;
+}
+div.checkbox {
+    margin-top: -5px;
+    margin-left: 560px;
+    color: var(--White, #FFF);
+    font-family: "Ubuntu", sans-serif;
+    font-size: 15px;
+}
+div.checkbox2 {
+    margin-top: 10px;
+    margin-left: 560px;
+    color: var(--White, #FFF);
+    font-family: "Ubuntu", sans-serif;
+    font-size: 15px;
+}
+div.btnexcluir {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: 750px;
+}
+div.btncancelar {
+    margin-top: -110px;
+    margin-left: 600px;
+    margin-bottom: 60px;
+}
+div.btnsalvar {
+    margin-top: -110px;
+    margin-left: 450px;
+    margin-bottom: 60px;
+}
+input.nome{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 15px;
+    background-color: #808080;
+    cursor: pointer;
+}
+select.idioma{
+    background-color: #808080;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    font-size: 15px;
+}
+select.faixa{
+    background-color: #808080;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    font-size: 15px;
+}
+input.btneditar{
+    background-color: var(--Black, #141414);
+    width: 100px;
+    height: 40px;
+    border-color:  1px solid var(--Gray, #808080);
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    font-size: 15px;
+}
+input.btnexcluir {
+    background-color: var(--Black, #141414);
+    width: 170px;
+    height: 50px;
+    border-color:  1px solid var(--Gray, #808080);
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    font-size: 18px;
+}
+input.btncancelar {
+    background-color: var(--Black, #141414);
+    width: 120px;
+    height: 50px;
+    border-color:  1px solid var(--Gray, #808080);
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    font-size: 18px;
+}
+input.btnsalvar {
+    background-color: var(--White, #FFF);
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Ubuntu", sans-serif;
+    color:  var(--Black, #141414);
+    font-size: 18px;
+}
+input::placeholder{
+    color: white;
+}

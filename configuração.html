@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Configuração Perfil</title>
+        <link rel="stylesheet" type="text/css" href="css/configuração.css">
+    </head>
+    <body>
+        <div class="principal">
+            <div class="foto">
+                <img class="lucas" src="img/Lucas.png" alt="lucas" width=110 height=110>
+            </div>
+            <div class="titulo">
+                <p>Editar Perfil</p>
+            </div>
+            <div class="nome">
+                <input type="text" class="nome" placeholder="Lucas">
+            </div>
+            <br>
+            <div class="id">
+                <p>Idioma:</p>
+            </div>
+            <div class="selecionar">
+                <select class="idioma">
+                    <option value="pt" selected>Português</option>
+                    <option value="ing">Inglês</option>
+                    <option value="esp">Espanhol</option>
+                </select>
+            </div>
+            <div class="faixa">
+                <p>Configuração de classificação etária:</p>
+            </div>
+            <div class="selectfaixa">
+                <select class="faixa">
+                    <option value="todas" selected>Todas as classificações etárias</option>
+                    <option value="livre">Livre para Todos os Públicos</option>
+                </select>
+            </div>
+            <div class="editar">
+                <input type="submit" value="Editar" class="btneditar">
+            </div>
+            <div class="controle">
+                <p>Controle de inicio automático</p>
+            </div>
+        </div>
+
+        <div class="checkbox">
+            <input type="checkbox" id="1" name="1">
+            <label for="1">Iniciar automaticamente o próximo episódio de uma série em todos os aparelhos.</label>
+        </div>
+        <div class="checkbox2">
+            <input type="checkbox" id="2" name="2">
+            <label for="2">Reproduzir automaticamente as prévias ao navegar em todos os aparelhos. </label>
+        </div>
+
+        <div class="btnexcluir">
+            <input type="submit" value="Excluir Perfil" class="btnexcluir">
+        </div>
+        <div class="btncancelar">
+            <a href="perfil.html">
+            <input type="submit" value="Cancelar" class="btncancelar">
+            </a>
+        </div>
+        <div class="btnsalvar">
+            <input type="submit" value="Salvar" class="btnsalvar">
+        </div>
+    </body>
+</html>
